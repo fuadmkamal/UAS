@@ -1,0 +1,1048 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+#header {
+	width: 100%;
+	height: 110px;
+	background-color: #0e0e02;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+}
+
+#logo {
+	width: 110px;
+	height: 110px;
+	vertical-align: middle;
+}
+
+#navigasi {
+	color: #fff;
+	font-family: mesquite std medium;
+	word-spacing: 30px;
+	padding-left: 50px;
+	font-size: 60px;
+	
+}
+
+#navigasi a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s ease;
+}
+
+#navigasi a:hover {
+	color:#201e04;
+	transition: all .3s ease;
+}
+
+a#link-active {
+	color:yellow;
+}
+
+#phone {
+	font-family: mesquite std medium;
+	font-size: 60px;
+	word-spacing: 0;
+	text-align: right;
+	margin-left: 380px;
+	color:yellow;
+}
+
+/*Slider*/
+#slider {
+	height: 700px;
+	width:100%;
+	text-align: center;
+	background-color: #2e3436;
+	position: fixed;
+	z-index: 1;
+	top: 70px;
+}
+
+#gambar-slider {
+	margin: 0;
+}
+
+.bx-wrapper .bx-viewport {
+	border: none;
+	box-shadow: none;
+	left: 0;
+}
+
+/*Isi*/
+#isi {
+	position: relative;
+	z-index: 2;
+	margin-top: 660px;
+	font-size: 20px;
+}
+
+/*Client*/
+#client {
+	background-color: #0e0e02;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#isi-client {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	color: yellow;
+	font-family: mesquite std medium;
+}
+
+#logo-client {
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+/*Opening*/
+#opening {
+	background-image: url('../img/cafe2.jpg');
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#bungkus-opening {
+	width: 960px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#isi-opening {
+	padding-right: 400px; 
+}
+
+#subjudul-opening {
+	font-family: mesquite std medium;
+	color: #fff;
+	font-size: 50px;
+}
+
+#judul-opening {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 80px;
+	margin-top: -20px; 
+}
+
+#deskripsi-opening {
+	font-family: Arial;
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#tombol-opening {
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	color: yellow;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+#bungkus-tes{
+	background-color:black;
+}
+#judul-tes{
+	font-family: mesquite std medium;
+	font-size:80px;
+	color:yellow;
+	background-color:black;
+	margin-left:100px;
+	margin-right:auto;
+	padding-top:50px;
+	float:center;
+}
+/*Testimoni*/
+#testimoni {
+	background-color:black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Testimoni 1*/
+#testimoni1 {
+	background-color:#0e0e02;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni1 {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni1 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni1 {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni1 {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni1 {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni1 {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni1 {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Testimoni 2*/
+#testimoni2 {
+	background-color:black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni2 {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni2 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni2 {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni2 {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni2 {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni2 {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni2 {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Testimoni 3*/
+#testimoni3 {
+	background-color:#0e0e02;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni3 {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni3 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni3 {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni3 {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni3 {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni3 {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni3 {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Testimoni 4*/
+#testimoni4 {
+	background-color:black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni4 {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni4 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni4 {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni4 {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni4 {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni4 {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni4 {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Testimoni 5*/
+#testimoni5 {
+	background-color:#0e0e02;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#bungkus-testimoni5 {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto-testimoni5 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	float: right;
+}
+
+#isi-testimoni5 {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-testimoni5 {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:20px;
+}
+
+#judul-testimoni5 {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 60px;
+	margin-top: -20px; 
+}
+
+#deskripsi-testimoni5 {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#nama-testimoni5 {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+/*Footer*/
+#footer {
+	background-color: black;
+	color: yellow;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#bungkus-footer {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#label-footer {
+	color: yellow;
+}
+
+
+#sosmed-footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#facebook {}
+
+#twitter { margin-left: 10px; }
+
+#instagram { margin-left: 10px; }
+
+#telp {
+	color: #f88601;
+}
+
+#email-umum {
+	color: #f88601;
+}
+
+#email-penawaran {
+	color: #f88601;
+}
+
+#copyright {
+	margin-top: 10px;
+}
+
+/*-------------------ABOUT------------------------*/
+
+/*Cover Image*/
+#cover-image {
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	top: 110px;
+	background-color:black;
+}
+
+/*Tentang Kami*/
+#tentang-kami {
+	background-color: #0e0e02;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#bungkus-tentang-kami {
+	width: 960px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-tentang-kami {
+	font-family: arial;
+	color: #fff;
+	font-size: 30px;
+	display: block;
+	line-height: 0;
+	font-weight: normal;
+	padding-bottom:20px;
+}
+
+#judul-tentang-kami {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 100px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+p {
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#misi {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-weight: normal;
+	font-size: 100px;
+}
+
+blockquote {
+	background-color: #fff;
+	font-family: Arial;
+	font-size: 18px;
+	color: #2e3436;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	border-left: 15px solid #2e3436;
+	background-image: url('../img/quote-left.png');
+	background-repeat: no-repeat;
+	background-position: 25px 20px;
+}
+
+/*Service*/
+#service {
+	background-color: yellow;
+	padding-top: 100px;
+}
+
+#bungkus-service {
+	width: 960px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-service {
+	font-family: mesquite std medium;
+	color: #0e0e02;
+	font-size: 100px;
+	display: block;
+	line-height: 0;
+	font-weight: normal;
+	padding-bottom:30px;
+}
+
+#daftar-service {
+	font-family: Arial;
+	color: #0e0e02;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#daftar-service h3 {
+	margin-bottom: 0;
+}
+
+#daftar-service p {
+	color: #0e0e02;
+	margin-top: 10px;
+}
+
+/*Tim Kami*/
+#team {
+	background-color: #0e0e02;
+	padding-top: 150px;
+}
+
+#bungkus-team {
+	width: 960px;
+	height: 2600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-team {
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 0;
+	font-weight: normal;
+	padding-bottom:20px;
+}
+
+#judul-team {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 100px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+/*Daniel Brandon*/
+#daniel {
+	margin-top: 50px;
+	height: 300px;
+}
+
+#foto-daniel {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	float: left;
+}
+
+#isi-daniel {
+	width: 550px;
+	height: 300px;
+	float: right;
+}
+
+#subjudul-daniel {
+	font-family:arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 20px;
+	font-weight: normal;
+	padding-bottom:10px;
+}
+
+#judul-daniel {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+#daniel p {
+	color: white;
+}
+
+#nama-daniel {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+/*Tina Wijaya*/
+#tina {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 300px;
+}
+
+#foto-tina {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	float: right;
+}
+
+#isi-tina {
+	width: 550px;
+	height: 300px;
+	float: left;
+}
+
+#subjudul-tina {
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 20px;
+	font-weight: normal;
+	padding-bottom:15px;
+}
+
+#judul-tina {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+
+#tina p {
+	color: white;
+}
+
+#nama-tina {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/*Leona*/
+#leona {
+	height: 300px;
+}
+
+#foto-leona {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	float: left;
+}
+
+#isi-leona {
+	width: 550px;
+	height: 300px;
+	float: right;
+}
+
+#subjudul-leona {
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 20px;
+	font-weight: normal;
+	padding-bottom:15px;
+}
+
+#judul-leona {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal;
+}
+
+#leona p {
+	color: white;
+}
+
+#nama-leona {
+	font-family: Arial;
+	color: yellow;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/*-------------------PORTOFOLIO------------------------*/
+
+/*Portofolio*/
+#portofolio {
+	background-color:black;
+	padding-top: 80px;
+}
+
+#bungkus-portofolio {
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subjudul-portofolio {
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 0;
+	font-weight: normal;
+	padding-bottom:20px;
+}
+
+#judul-portofolio {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 80px;
+	margin-top: -20px;
+	font-weight: normal;
+	
+}
+
+#menu {
+	background-color:black;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#bungkus-menu {
+	width: auto;
+	height: 200px;
+	margin-right:auto;
+	margin-left:90px;
+	padding-bottom:50px;
+}
+
+#foto-menu {
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+	float: left;
+}
+
+#isi-menu {
+	width: 550px;
+	height: 300px;
+	float: left;
+	margin-left:20px;
+}
+
+#subjudul-menu {
+	font-family: mesquite std medium;
+	color: white;
+	font-size: 30px;
+	padding-bottom:10px;
+}
+#judul-menu {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 80px;
+	margin-top: -20px;
+}
+#deskripsi-menu {
+	font-family: Arial;
+	color: white;
+	font-size:25px;
+	line-height: 5px;
+}
+#angka-menu{
+	font-family:mesquite std medium;
+	color:yellow;
+	font-size:120px;
+}
+/*-------------------CONTACT------------------------*/
+
+/*Contact*/
+#contact {
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+#bungkus-contact {
+	width: 960px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subjudul {
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	display: block;
+	line-height: 0;
+	font-weight: normal;
+	padding-bottom:10px;
+}
+
+.judul {
+	font-family: mesquite std medium;
+	color: yellow;
+	font-size: 80px;
+	margin-top: -20px;
+	font-weight: normal; 
+}
+.deskripsi-k{
+	color:white;
+	font-family:arial;
+	font-size:20px;
+	font-weight:normal;
+	padding-bottom:40px;
+}
+#form {
+	width: 540px;
+	height: 400px;
+	float: right;
+	padding-bottom:50px;
+}
+
+#address {
+	width: 360px;
+	height: 430px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#address p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 35px;
+}
+
+/*Form*/
+label {
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	display: block;
+}
+
+input,
+textarea {
+	padding: 20px 15px;
+	border: none;
+	border: 1px solid #f88601;
+	color: #f88601;
+	margin-bottom: 20px;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+#form_nama {
+	width: 500px;
+}
+#form_no{
+	width:500px;
+}
+#form_email {
+	width: 500px;
+}
+#form_kursi{
+	width:500px;
+}
+#form_pesan {
+	width: 500px;
+	height: 100px;
+}
+
+#form_kirim {
+	cursor: pointer;
+}
+
+.tombol {
+	background-color: #f88601;
+	color: #fff;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	transition: all .5s ease;
+	border: none;
+}
+
+.tombol:hover {
+	background-color: #2e3436;
+	transition: all .3s ease;
+}
